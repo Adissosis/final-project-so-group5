@@ -1,0 +1,11 @@
+backups/*.tar.gz
+backups/*.sha256
+restore_test/*
+data_dummy/*
+*.lock
+*.pem
+*.key
+id_rsa*
+*.vdi
+*.ova
+*.vmdk
