@@ -1,0 +1,10 @@
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8640] Lock acquired (PID: 8640). Starting automated backup pipeline...
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8651] Validasi sukses: Sumber '/home/adis/Documents/UAS-SO/final-project-so-group5/tests/data_dummy' memiliki 3 item.
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8661] Arsip sukses: '/home/adis/Documents/UAS-SO/final-project-so-group5/backups/backup_20261123_051142.tar.gz' terbentuk (4 entri, permission 640).
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8680] Checksum dibuat: /home/adis/Documents/UAS-SO/final-project-so-group5/backups/backup_20261123_051142.tar.gz.sha256 (SHA256: 60f3a8e047098d95a193e93099bfbac8909975d8287767564e90b63df87f81d1)
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8692] Verifikasi integritas LOLOS untuk '/home/adis/Documents/UAS-SO/final-project-so-group5/backups/backup_20261123_051142.tar.gz'.
+[2026-11-23 05:11:42] [INFO] [User:adis] [PID:8640] Report successfully updated at '/home/adis/Documents/UAS-SO/final-project-so-group5/output/laporan.txt'. Backup pipeline finished.
+[2026-11-23 05:16:09] [INFO] [User:adis] [PID:9201] Verifikasi integritas LOLOS untuk 'backups/backup_20261123_051142.tar.gz'.
+[2026-11-23 05:16:09] [INFO] [User:adis] [PID:9196] Restore succeeded: 3 item(s) successfully restored to '/home/adis/Documents/UAS-SO/final-project-so-group5/restore_test'.
+[2026-11-23 05:16:35] [ERROR] [User:adis] [PID:9280] Validasi gagal: Direktori sumber '/tmp/uji_5a_kosong' kosong (0 berkas).
+[2026-11-23 05:16:35] [ERROR] [User:adis] [PID:9289] Arsip gagal: Direktori tujuan '/tmp/uji_5a_readonly' tidak memiliki izin tulis (read-only).

@@ -1,0 +1,13 @@
+=========================================================
+LINUX AUTOMATED BACKUP & VERIFICATION REPORT (TOPIC 5A)
+=========================================================
+Execution Time      : 2026-11-23 05:11:42
+Executing User      : adis (PID: 8640)
+Source Directory    : /home/adis/Documents/UAS-SO/final-project-so-group5/tests/data_dummy
+Archive Name        : backup_20261123_051142.tar.gz
+Archive Size        : 4.0K
+SHA256 Checksum     : 60f3a8e047098d95a193e93099bfbac8909975d8287767564e90b63df87f81d1
+Verification Status : PASSED VERIFICATION (EXIT STATUS 0)
+=========================================================
+Archive History in Destination Directory:
+- backup_20261123_051142.tar.gz (4.0K)
