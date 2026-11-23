@@ -24,9 +24,10 @@ fi
 STATUS_VAL=$?
 [[ $STATUS_VAL -ne 0 ]] && exit $STATUS_VAL
 
-ARCHIVE_CREATED=$("$SCRIPT_DIR/02_archive.sh" "$SOURCE_DIR" "$DEST_DIR" | tail -n 1)
+ARC_OUTPUT=$("$SCRIPT_DIR/02_archive.sh" "$SOURCE_DIR" "$DEST_DIR")
 STATUS_ARC=$?
 [[ $STATUS_ARC -ne 0 ]] && exit $STATUS_ARC
+ARCHIVE_CREATED=$(echo "$ARC_OUTPUT" | tail -n 1)
 
 "$SCRIPT_DIR/03_verify.sh" generate "$ARCHIVE_CREATED" || exit 4
 "$SCRIPT_DIR/03_verify.sh" check "$ARCHIVE_CREATED"
