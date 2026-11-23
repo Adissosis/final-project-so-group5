@@ -30,3 +30,16 @@ Proyek Akhir Terintegrasi MK Sistem Operasi & Praktikum Sistem Operasi — S1 Si
    git clone https://github.com/Adissosis/final-project-so-group5.git
    cd final-project-so-group5
    chmod +x scripts/*.sh
+   ```
+
+2. Siapkan data dummy dan jalankan rangkaian backup utama:
+   ```bash
+   ./tests/setup_dummy.sh
+   ./scripts/05_manager.sh
+   ```
+
+
+3. Pulihkan (restore) arsip terbaru ke direktori uji:
+   ```bash
+   ./scripts/04_restore.sh "$(ls -t backups/*.tar.gz | head -n 1)"
+   ```
